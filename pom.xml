@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>edu.jpa.hibernate</groupId>
+    <artifactId>jpa-hibernate</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>./lab-01-entity</module>
+        <module>./lab-02-entity-id</module>
+        <module>./lab-03-entity-relations</module>
+        <module>./lab-04-entity-hierarchy</module>
+        <module>./lab-05-entity-manager</module>
+        <module>./lab-06-query</module>
+    </modules>
+</project>
